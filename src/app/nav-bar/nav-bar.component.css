@@ -1,0 +1,20 @@
+.space {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    a {
+        color: black;
+        cursor:pointer
+    }
+    margin: 1rem;
+    border: solid 1px rgb(182, 255, 65);
+    background-color: rgb(182, 255, 65);
+}
+
+.navbar, a:hover{
+    color: #2b2b2a;
+}
